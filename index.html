@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rutuja Dukare | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #f4f4f4, #e0f7fa);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      padding: 2rem 1rem 3rem;
+    }
+
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .profile-section {
+      text-align: center;
+    }
+
+    .intro {
+      padding-left: 0;
+    }
+
+    .intro h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .intro p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe082;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #2f80ed;
+      padding-left: 1rem;
+      color: #2f80ed;
+    }
+
+    .divider {
+      margin: 2rem 0;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .project {
+      background-color: white;
+      flex: 1 1 250px;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .badge {
+      display: inline-block;
+      margin: 0.5rem 0;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 8px;
+      color: white;
+    }
+
+    .badge-gold {
+      background-color: #f9a825;
+    }
+
+    .badge-blue {
+      background-color: #1976d2;
+    }
+
+    .badge-green {
+      background-color: #388e3c;
+    }
+
+    .badge-purple {
+      background-color: #7b1fa2;
+    }
+
+    .badge-orange {
+      background-color: #ef6c00;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1c1c1c;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #90caf9;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .intro {
+        padding-left: 0;
+      }
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="profile-section">
+        <!-- Profile image can go here -->
+      </div>
+      <div class="intro">
+        <h1>Rutuja Dukare</h1>
+        <p>Electronics & Telecommunication Student | Developer | MITAOE</p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      Hi! I'm an Electronics and Telecommunication (ENTC) engineering student currently pursuing my degree at MIT Academy of Engineering (MITAOE).
+      I'm passionate about technology, coding, and building meaningful digital experiences.
+      I enjoy solving real-world problems through creative development and design. Whether it's front-end interfaces or core logic, I love making ideas come to life.
+      I’m also continuously exploring new areas in embedded systems, web development, and UI/UX.
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="certifications" class="certifications">
+    <h2 class="section-title">Certifications</h2>
+    <div class="projects">
+
+      <div class="project">
+        <h3>Python Essentials -Cisco Networking Academy</h3>
+        <span class="badge badge-gold">🏆 Certificate</span>
+        <p>Completed Python Essentials part 1 and 2 through Cisco Networking Academy. </p>
+      </div>
+
+      <div class="project">
+        <h3>NASSCOM Certification</h3>
+        <span class="badge badge-blue"><a href="https://www.example.com/web-cert" target="_blank">📜 Certification</a></span>
+        <p>Earned a certifiaction in Digital 101 course from NASSCOM Futureskills program. </p>
+      </div>
+     </section>
+
+  <div class="divider"></div>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>LED Lighting System </h3>
+        <p>Designed and built basic LED lighting system and gained hands-on experience by working with electrical components.</p>
+      </div>
+      <div class="project">
+        <h3>Health Monitoring System</h3>
+        <p>Developed a Health Monitoring System using IOT to track vital signs in real time. </p>
+      </div>
+      <div class="project">
+        <h3>Text Summarisation using Open AI</h3>
+        <p>Summarises lengthy texts into short summaries and extracts key data from PDFs and Documents to generate concise summaries.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email me at: <a href="rutujadukare30@gmail.com">rutujadukare30@gmail.com</a></p>
+    <p>
+      <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Twitter</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Rutuja Dukare. Built with ❤ and pure HTML/CSS. <br> Connect with me: <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+  </footer>
+
+</body>
+</html>
